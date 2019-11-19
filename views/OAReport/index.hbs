@@ -1,0 +1,73 @@
+<html data-reactroot="">
+
+<head>
+  <link rel="stylesheet" href="{{CSSPath}}">
+
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+  <title>OA汇报</title>
+  <script>
+    (function () { window.g_useSSR = true; window.g_initialData = JSON.parse(decodeURIComponent('{{ g_initialData }}')); })()
+  </script>
+  <script>window.routerBase = "/";</script>
+</head>
+
+<body>
+  <div id="root">
+    <div style="width:100%" class="ant-card ant-card-bordered ant-card-contain-tabs">
+      <div class="ant-card-head">
+        <div class="ant-card-head-wrapper"></div>
+        <div class="ant-tabs ant-tabs-top ant-card-head-tabs ant-tabs-large ant-tabs-line">
+          <div role="tablist" class="ant-tabs-bar ant-tabs-top-bar ant-tabs-large-bar" tabindex="0">
+            <div class="ant-tabs-nav-container"><span unselectable="unselectable"
+                class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"><span class="ant-tabs-tab-prev-icon"><i
+                    aria-label="icon: left" class="anticon anticon-left ant-tabs-tab-prev-icon-target"><svg
+                      viewBox="64 64 896 896" focusable="false" class="" data-icon="left" width="1em" height="1em"
+                      fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z">
+                      </path>
+                    </svg></i></span></span><span unselectable="unselectable"
+                class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"><span class="ant-tabs-tab-next-icon"><i
+                    aria-label="icon: right" class="anticon anticon-right ant-tabs-tab-next-icon-target"><svg
+                      viewBox="64 64 896 896" focusable="false" class="" data-icon="right" width="1em" height="1em"
+                      fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z">
+                      </path>
+                    </svg></i></span></span>
+              <div class="ant-tabs-nav-wrap">
+                <div class="ant-tabs-nav-scroll">
+                  <div class="ant-tabs-nav ant-tabs-nav-animated">
+                    <div>
+                      <div role="tab" aria-disabled="false" aria-selected="true"
+                        class="ant-tabs-tab-active ant-tabs-tab">填写汇报</div>
+                      <div role="tab" aria-disabled="false" aria-selected="false" class=" ant-tabs-tab">我的汇报</div>
+                      <div role="tab" aria-disabled="false" aria-selected="false" class=" ant-tabs-tab">审核汇报</div>
+                    </div>
+                    <div class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div tabindex="0" style="width:0;height:0;overflow:hidden;position:absolute" role="presentation"></div>
+          <div class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content" style="margin-left:0%">
+            <div role="tabpanel" aria-hidden="false" class="ant-tabs-tabpane ant-tabs-tabpane-active">
+              <div tabindex="0" style="width:0;height:0;overflow:hidden;position:absolute" role="presentation"></div>
+              <div tabindex="0" style="width:0;height:0;overflow:hidden;position:absolute" role="presentation"></div>
+            </div>
+            <div role="tabpanel" aria-hidden="true" class="ant-tabs-tabpane ant-tabs-tabpane-inactive"></div>
+            <div role="tabpanel" aria-hidden="true" class="ant-tabs-tabpane ant-tabs-tabpane-inactive"></div>
+          </div>
+          <div tabindex="0" style="width:0;height:0;overflow:hidden;position:absolute" role="presentation"></div>
+        </div>
+      </div>
+      <div class="ant-card-body"></div>
+    </div>
+  </div>
+  {{!-- <script>"{{umiJS}}"</script> --}}
+  <script src="{{JSPath}}"></script>
+</body>
+
+</html>
